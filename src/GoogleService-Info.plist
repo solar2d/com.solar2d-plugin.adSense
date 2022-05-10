@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>652763858765-pkb874i9a5bbm2u435mje8vhdempee3p.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.652763858765-pkb874i9a5bbm2u435mje8vhdempee3p</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>652763858765-0d0s944ntsff2b677t961oalkteha8ma.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCWNfKRkUJ0svvH0dUyfE9CfD3jZDZNy6c</string>
+	<key>GCM_SENDER_ID</key>
+	<string>652763858765</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.scotthtech.coronaDev</string>
+	<key>PROJECT_ID</key>
+	<string>corona-sdk-4-82825584</string>
+	<key>STORAGE_BUCKET</key>
+	<string>corona-sdk-4-82825584.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:652763858765:ios:4e188887fb242546095904</string>
+	<key>DATABASE_URL</key>
+	<string>https://corona-sdk-4-82825584.firebaseio.com</string>
+</dict>
+</plist>
