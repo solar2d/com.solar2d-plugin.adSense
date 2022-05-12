@@ -3,10 +3,10 @@ local json = require( "json" )
 adSense.init(function (event)
   print(json.encode( event ))
   if(event.phase == "init" and event.isError == false)then
-    adSense.show("banner",{adSlot="5393233188", height=150, position="bottom"})
+    adSense.show("banner",{adSlot="xxxxxxxx", height=150, position="bottom"})
     print(adSense.height())
   end
-end, {clientId="ca-pub-2432073266441412", testMode = true})
+end, {clientId="ca-pub-xxxxxxxxxxx", testMode = true})
 
 local bg = display.newRect( display.contentCenterX, display.contentCenterY, display.actualContentWidth, display.actualContentHeight )
 bg:setFillColor(.5)
