@@ -46,12 +46,12 @@ window.plugin_adSense_js ={
 
 		script.onerror = function()
 		{
-			plugin_adSense_js.callback({ name:"adSense", phase: 'init', isError:true, error:"Network failure" });
+			plugin_adSense_js.callback({ name:"adsRequest", provider:"adSense", phase: 'init', isError:true, error:"Network failure" });
 		};
 
 		script.onload = function()
 		{
-			plugin_adSense_js.callback({ name:"adSense", phase: 'init', isError:false});
+			plugin_adSense_js.callback({ name:"adsRequest", provider:"adSense", phase: 'init', isError:false});
 		};
 
 
@@ -76,9 +76,6 @@ window.plugin_adSense_js ={
 		document.body.appendChild(this.ins);
 		//this.ins.setAttribute('data-ad-format', "auto");
 		//this.ins.setAttribute('data-full-width-responsive', "true");
-		if(this.testMode && this.testMode == true){
-				this.ins.setAttribute('data-adtest', "on");
-		}
 
 		//Center Ad
 		this.ins.style.marginRight = "auto";
@@ -114,12 +111,13 @@ window.plugin_adSense_js ={
 		var code = '(adsbygoogle = window.adsbygoogle || []).push({});';
 		script.appendChild(document.createTextNode(code));
     document.body.appendChild(script);
-		this.callback({ name:"adSense", phase: 'displayed' });
+		this.callback({ name:"adsRequest", provider:"adSense", phase: 'displayed' });
 
 	},
 	hide: function() {
 		if(this.ins){
 			this.ins.remove();
+			this.callback({ name:"adsRequest", provider:"adSense", phase: 'hidden' });
 		}
 	},
 };
