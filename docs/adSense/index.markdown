@@ -54,6 +54,6 @@ settings =
 
 
 ## Support
-
+	* [Demo](https://github.com/solar2d/com.solar2d-plugin.adSense/tree/master/demo)
 	* [https://support.google.com/adsense/](https://support.google.com/adsense/)
 	* [Solar2D Forums](https://forums.solar2d.com/c/corona-marketplace/13)
