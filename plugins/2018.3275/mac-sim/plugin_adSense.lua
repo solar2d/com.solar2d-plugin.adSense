@@ -1,3 +1,4 @@
+local Library = require "CoronaLibrary"
 
 local lib
 

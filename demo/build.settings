@@ -1,0 +1,15 @@
+settings =
+{
+	orientation =
+	{
+		default = "landscapeRight",
+		supported = { "landscapeRight" },
+	},
+	plugins =
+  {
+      ["plugin.adSense"] =
+      {
+          publisherId = "com.solar2d"
+      },
+  },
+}
